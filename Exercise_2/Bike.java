@@ -5,7 +5,7 @@ class Bike {
 
     public Bike() {
         this.numberOfWheels = 2;
-        this.manufacturer = 2;
+        this.manufacturer = "Schwinn";
         this.year = 2014;
     }
 
