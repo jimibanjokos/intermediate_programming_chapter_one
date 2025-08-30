@@ -25,4 +25,20 @@ class Bike {
     public int getYear() {
         return year;
     }
+
+    public void setNumberOfWheels(int numberOfWheels) {
+        this.numberOfWheels = numberOfWheels;
+    }
+
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String toString() {
+        return "Number of Wheels: " + numberOfWheels + ", Manufacturer: " + manufacturer + ", Year: " + year;
+    }
 }
