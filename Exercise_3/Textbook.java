@@ -44,6 +44,6 @@ class TextBook {
     }
     
     public void printInfo() {
-        System.out.println(title + " by " + author + " (" + yearPublished + ")");
+        System.out.println("The name of the book is " + title + " , the author is " + author + " , and the number of Pages is " + numberOfPages);
     }
 }
