@@ -1,3 +1,12 @@
+/**Class: BikeTester
+ * @author: Jimi Banjoko
+ * @version 1.0
+ * Course: ITEC 2150 Fall 2025
+ * Written: August 30, 2025
+ * 
+ * This class - It tests out the bike through the variables that were used.
+*/
+
 import java.util.ArrayList;
 public class BikeTester {
     public static void main(String[] args) {
