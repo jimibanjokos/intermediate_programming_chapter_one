@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class BikeTester {
     public static void main(String[] args) {
         int totalNumberOfWheels;
+        int oldestYear = bikeList.get(0).getYear();
         Bike bike1 = new Bike();
         System.out.println(bike1.toString());
         totalNumberOfWheels = bike1.getNumberOfWheels();
@@ -25,6 +26,15 @@ public class BikeTester {
         bikeList.add(bike2);
         System.out.println(bikeList);
         System.out.println("The total number of wheels is " + totalNumberOfWheels);
+
+        for(Bike b : BikeList) {
+            if(b.getYear() < oldestYear){
+                oldestYear = b.getYear();
+
+            }
+        }
+
+        System.out.println(oldestYear);
 
 
     }
