@@ -26,11 +26,11 @@ public class BikeTester {
         System.out.println(bikeList);
         System.out.println("The total number of wheels is " + totalNumberOfWheels);
 
-        int oldestYear = bikeList.get(0).getYear();
+        int oldestYear = Integer.MAX_VALUE;
 
-        for(Bike b : bikeList) {
-            if(b.getYear() < oldestYear){
-                oldestYear = b.getYear();
+        for(Bike bike : bikeList) {
+            if(bike.getYear() < oldestYear){
+                oldestYear = bike.getYear();
 
             }
         }
