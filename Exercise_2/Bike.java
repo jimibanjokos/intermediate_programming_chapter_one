@@ -1,4 +1,4 @@
-/**Class: Person
+/**Class: Bike
  * @author: Jimi Banjoko
  * @version 1.0
  * Course: ITEC 2150 Fall 2025
