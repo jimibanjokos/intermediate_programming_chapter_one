@@ -7,7 +7,7 @@
  * This class - Model of a textbook.
 */
 
-class TextBook {
+public class TextBook {
     // 3 instance variables
     private String title;
     private String author;
